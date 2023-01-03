@@ -1,0 +1,129 @@
+/* Portrait */
+
+.portrait_image_container img {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/* Headline Text */
+
+.headline_text_container {
+    padding: 15px;
+}
+
+.headline_text_container h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+/* Info About Me */
+
+.info_about_me_container{
+    margin-top: 2rem;
+}
+
+.about_me_highlight{
+    color: rgb(0, 184, 190);
+}
+
+.info_about_me_header_container{
+    font-family: 'Pacifico', cursive;
+    padding: 0 20px;
+}
+
+.info_about_me_text_container{
+    margin-top: 1rem;
+}
+
+/* Timeline */
+
+.timeline_header_container{
+    margin-top: 1rem;
+}
+
+.timeline_header_container h4{
+    font-family: 'Pacifico', cursive;
+}
+
+.timeline {
+    position: relative;
+    max-width: 95vw;
+    margin: 2rem auto 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: -3px;
+}
+
+.timeline_container {
+    padding: 10px 20px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+.timeline_container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 247, 255);
+    border: 4px solid black;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    left: 50%;
+    left: -13px;
+}
+
+.timeline_container::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 17px;
+    width: 0;
+    z-index: 1;
+    left: 15px;
+    border: medium solid black;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent black transparent transparent;
+}
+
+.timeline_content {
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.timeline_content h4{
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+    .timeline{
+        left: 5px;
+    }
+
+    .timeline_container {
+        width: 100%;
+        left: 0%;
+    }
+
+    .timeline_container::before {
+        left: 12px;
+        border: medium solid black;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent black transparent transparent;
+    }
+}

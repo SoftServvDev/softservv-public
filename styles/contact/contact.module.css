@@ -1,0 +1,129 @@
+/* Contact Information */
+
+.contact_information h3{
+    font-family: 'Pacifico', cursive;
+}
+
+.contact_information ul{
+    list-style: none;
+}
+
+.contact_information i{
+    color: rgb(0, 184, 190);
+}
+
+.contact_information a{
+    text-decoration: none;
+    color:rgba(32, 101, 104, 0.952);
+}
+
+.contact_information a:hover{
+    color:rgb(0, 184, 190);
+}
+
+/* Contact Form */
+
+.contact_form_container{
+    margin-top: 2rem;
+}
+
+.contact_form{
+    padding: 1rem;
+    position: relative;
+}
+
+.contact_form h3{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding: 1rem 0 0 0;
+}
+
+.contact_form_submit_button{
+    background-color: rgb(0, 184, 190);
+}
+
+.contact_form_submit_button:hover{
+    background-color: rgba(32, 101, 104, 0.952);
+}
+
+/* Contact Form Load Screen */
+
+.loading_screen{
+    position: absolute;
+    border-radius: 5px;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 0;
+}
+
+.loading_spinner{
+    color: rgb(0, 184, 190) !important;
+    height: 5rem;
+    width: 5rem;
+    margin: auto;
+}
+
+/* Server Responses */
+
+.server_response_good{
+    position: absolute;
+    border-radius: 5px;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 0;
+}
+
+.server_response_good .message{
+    background-color: rgb(0, 184, 190);
+    width: 50%;
+    height: 4rem;
+    padding: 1rem 0;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.server_response_good .message i {
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+
+.server_response_bad{
+    position: absolute;
+    border-radius: 5px;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 0;
+}
+
+.server_response_bad .message{
+    padding: 1rem 0;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.server_response_bad .message p {
+    background-color: red;
+    margin: 0;
+    padding: 10px;
+}

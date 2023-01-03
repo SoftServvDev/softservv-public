@@ -1,0 +1,41 @@
+/* Projects */
+
+.projects_container{
+    margin-top: 2rem;
+}
+
+.projects_text_body a{
+    color: rgb(0, 184, 190);
+}
+
+.projects_text_body a:hover{
+    color: rgb(0, 86, 88);
+}
+
+.projects_header_container h3{
+    margin-bottom: 1rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.projects_card_container{
+    margin-top: 1rem;
+}
+
+.projects_text_container{
+    margin-top: .5rem;
+}
+
+.projects_text_container h5{
+    text-align: center;
+}
+
+.projects_text_container p{
+    padding: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 575px){
+    .books_text_container h4{
+        text-align: center;
+    }
+}

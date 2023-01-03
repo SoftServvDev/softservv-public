@@ -1,0 +1,387 @@
+/* Hero */
+
+.name_header {
+    font-family: 'Pacifico', cursive;
+}
+
+.header_text {
+    margin-top: auto;
+    padding: 15px;
+}
+
+.text_accent {
+    color: rgb(0, 247, 255);
+}
+
+.hero_link {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 247, 255, 0.521);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.hero_link:hover {
+    background-color: rgba(32, 101, 104, 0.952);
+    color: white;
+}
+
+.competency_separator {
+    color: rgb(0, 247, 255)
+}
+
+/* Terminal */
+
+.terminal_container {
+    background-image: url('/art/SSi-Background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.terminal {
+    background-color: black;
+    position: relative;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.terminal .terminal_bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    width: 100%;
+    height: 2rem;
+}
+
+.terminal .terminal_bar p {
+    color: white;
+    margin-top: .25rem;
+    margin-left: 1rem;
+}
+
+.terminal .terminal_bar span {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(173, 173, 173);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.terminal .terminal_bar .close {
+    top: .25rem;
+    right: 1rem;
+}
+
+.terminal .terminal_bar .max {
+    top: .25rem;
+    right: 3rem;
+}
+
+.terminal .terminal_bar .min {
+    top: .25rem;
+    right: 5rem;
+}
+
+.terminal .spacer {
+    padding-top: 2rem;
+}
+
+.terminal .terminal_line {
+    color: white;
+}
+
+.terminal .terminal_line .gt {
+    color: white;
+}
+
+.terminal .terminal_line .softservv {
+    color: rgb(0, 247, 255);
+}
+
+.terminal .terminal_line .chase_quinn {
+    color: rgb(0, 247, 255);
+}
+
+.terminal .terminal_line .terminal_anchor {
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+}
+
+.terminal .terminal_line .terminal_anchor:hover {
+    background-color: rgb(82, 82, 82);
+}
+
+.terminal input {
+    border: none;
+    background-color: black;
+    color: rgb(0, 247, 255)
+}
+
+.terminal input:focus {
+    outline: none;
+}
+
+#prompt p {
+    background-color: black;
+    color: rgb(0, 247, 255)
+}
+
+.terminal_closed .terminal_closed_span {
+    background-color: rgb(0, 247, 255);
+    width: auto;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.minimized_terminal {
+    overflow-y: hidden;
+}
+
+/* Highlights */
+
+.highlights_container {
+    position: relative;
+    margin-top: 1.5rem;
+    height: 15rem;
+}
+
+.highlights_image_right {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    opacity: 60%;
+    height: 15rem;
+    position: absolute;
+    left: 10;
+    top: 0;
+    border-radius: 10px;
+}
+
+.highlights_image_left {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    opacity: 60%;
+    height: 15rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.highlights_text_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1rem;
+}
+
+.highlights_text_left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+}
+
+.highlights_text h2 {
+    text-decoration: underline;
+    font-family: 'Pacifico', cursive;
+}
+
+.highlights_body_one{
+    margin-top: 1rem;
+}
+
+.highlights_body a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(0, 247, 255, 0.521);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.highlights_body a:hover {
+    background-color: rgba(32, 101, 104, 0.952);
+    color: white;
+}
+
+/* Call To Action */
+
+.call_to_action_container {
+    margin-top: 1.5rem;
+    color: white;
+    height: 12rem;
+}
+
+.call_to_action_header {
+    margin-top: .5rem;
+}
+
+.call_to_action_header h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.call_to_action_button {
+    text-align: center;
+}
+
+.call_to_action_button a {
+    text-decoration: none;
+    background-color: rgb(0, 247, 255);
+    color: black;
+    padding: .5rem 1rem;
+    font-size: larger;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.call_to_action_button a:hover {
+    background-color: rgba(32, 101, 104, 0.952);
+    color: white;
+}
+
+/* Location */
+
+.location_container {
+    margin-top: 1rem;
+}
+
+.location_header {
+    text-align: center;
+}
+
+.location_header h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.location_map {
+    width: 100%;
+    height: 100%;
+}
+
+.location_list {
+    margin-top: 1rem;
+    list-style: none;
+}
+
+.location_text p {
+    padding: 0 5px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 767px) {
+    .terminal {
+        max-width: 90vw;
+    }
+
+    .highlights_image_right {
+        opacity: 10%;
+    }
+
+    .highlights_image_left {
+        opacity: 10%;
+    }
+
+    .highlight_text {
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .highlights_container {
+        height: 18rem;
+    }
+
+    .highlights_image_right {
+        height: 18rem;
+    }
+
+    .highlights_image_left {
+        opacity: 10%;
+    }
+}
+
+@media screen and (max-width: 571px) {
+    .call_to_action_container {
+        height: 14rem;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .highlights_container {
+        height: 20rem;
+    }
+
+    .highlights_image_right {
+        height: 20rem;
+    }
+
+    .highlights_image_left {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .location_map {
+        margin-left: 3px;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .call_to_action_container {
+        height: 16rem;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .highlights_container {
+        height: 23rem;
+    }
+
+    .highlights_image_right {
+        height: 23rem;
+    }
+
+    .highlights_image_left {
+        height: 23rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .highlights_container {
+        height: 25rem;
+    }
+
+    .highlights_image_right {
+        height: 25rem;
+    }
+
+    .highlights_image_left {
+        height: 25rem;
+    }
+}
+
+@media screen and (max-width: 299px) {
+    .highlights_container {
+        height: 28rem;
+    }
+
+    .highlights_image_right {
+        height: 28rem;
+    }
+
+    .highlights_image_left {
+        height: 28rem;
+    }
+}

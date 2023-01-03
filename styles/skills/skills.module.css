@@ -1,0 +1,89 @@
+/* Soft Skills */
+
+.soft_skills_card{
+    margin-top: 1rem;
+}
+
+.soft_skills_header_container{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.soft_skills_header_container h4{
+    font-family: 'Pacifico', cursive;
+}
+
+.soft_skills_text_container{
+    margin-top: 1rem;
+}
+
+.soft_skills_text_container ul{
+    list-style: none;
+    text-align: center;
+}
+
+/* Hard Skills */
+
+.hard_skills_card{
+    margin-top: 1rem;
+}
+
+.hard_skills_header_container{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.hard_skills_header_container h4{
+    font-family: 'Pacifico', cursive;
+}
+
+.hard_skills_text_container{
+    margin-top: 1rem;
+}
+
+.hard_skills_text_container ul{
+    list-style: none;
+    text-align: center;
+}
+
+.hard_skills_text_header{
+    text-decoration: underline;
+}
+
+/* Tech Stack */
+
+.tech_stack_text_container{
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+.tech_stack_text_container h4{
+    font-family: 'Pacifico', cursive;
+}
+
+.tech_stack_text_container p{
+    margin-top: 1rem;
+}
+
+.tech_stack_list{
+    margin-top: 1rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 767px){
+    
+    .soft_skills_text_container{
+        text-align: center;
+    }
+
+    .soft_skills_text_min{
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .tech_stack_list img{
+        max-width: 50vw;
+    }
+}
